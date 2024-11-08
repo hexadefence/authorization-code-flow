@@ -1,0 +1,23 @@
+{
+  "name": "authorization-code-flow",
+  "version": "1.0.0",
+  "description": "Example to demonstrate OpenID Connect Authorization Code Flow",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexadefence/authorization-code-flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexadefence/authorization-code-flow/issues"
+  },
+  "homepage": "https://github.com/hexadefence/authorization-code-flow#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  }
+}

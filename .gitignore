@@ -1,0 +1,58 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+
+# OS files
+Thumbs.db
+*.swp
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Coverage directory
+coverage/
+
+# Build output
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# Debugging
+debug/
+
+# Custom ignore patterns for this project
+config/
+secrets/
+.keycloak_config.json  # If you store Keycloak client secrets/configs here
+
+# Ignore specific file types (optional)
+*.pem
+*.crt
+*.key
+*.p12
